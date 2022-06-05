@@ -10,7 +10,7 @@ func TestHello(t *testing.T) {
 		}
 	}
 
-	t.Run("say hello to tim", func(t *testing.T) {
+	t.Run("say hello to Tim", func(t *testing.T) {
 		got := Hello("Tim")
 		want := "Hello, Tim"
 		assertMessage(t, want, got)
