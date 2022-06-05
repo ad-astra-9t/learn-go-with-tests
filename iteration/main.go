@@ -11,5 +11,5 @@ func Repeat(s string, count int) string {
 }
 
 func main() {
-	fmt.Println("Hello, World!")
+	fmt.Println(Repeat("yo ", 3))
 }
