@@ -5,6 +5,7 @@ use (
 	./hello
 	./integer
 	./iteration
+	./maps
 	./pointers-and-errors
 	./struct-interface
 )
